@@ -11,14 +11,16 @@ const projects = [
   {
     title: "GoalWise",
     description: "Full stack enterprise project developed using Django, React, MySQL",
+    tech_stack:"React, Django, Axios, MySQL, Postman",
     image: "/GoalWise.png",
-    link: "https://project2.com",
+    link: "https://github.com/FardinAhmed3",
   },
   {
     title: "Excilify",
     description: "Data extraction and visualization tool built to streamline financial records at a project management office",
+    tech_stack:"React, Django, ChartJS, Axios, MySQL, Postman",
     image: "/Excilify_simulation.jpg",
-    link: "https://project3.com",
+    link: "https://github.com/FardinAhmed3",
   },
 ]
 
