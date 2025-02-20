@@ -1,4 +1,4 @@
-import { FaNodeJs, FaReact, FaVuejs, FaAws, FaDocker, FaGitAlt } from "react-icons/fa"
+import { FaNodeJs, FaReact, FaVuejs, FaAws, FaDocker, FaGitAlt, FaBootstrap } from "react-icons/fa"
 import {
   SiExpress,
   SiFastapi,
@@ -11,6 +11,10 @@ import {
   SiRedis,
   SiKubernetes,
   SiPostman,
+  SiSpring,
+  SiNginx,
+  SiNextdotjs,
+  SiBootstrap,
 } from "react-icons/si"
 import { MdDesignServices } from "react-icons/md" // Using this for Material UI
 
@@ -18,6 +22,7 @@ const skillCategories = [
   {
     name: "Backend",
     skills: [
+      { name: "Spring", icon: SiSpring },
       { name: "Node.js", icon: FaNodeJs },
       { name: "Express", icon: SiExpress },
       { name: "FastAPI", icon: SiFastapi },
@@ -30,8 +35,10 @@ const skillCategories = [
     skills: [
       { name: "React", icon: FaReact },
       { name: "Vue.js", icon: FaVuejs },
-      { name: "Material UI", icon: MdDesignServices }, // Using a generic design icon for Material UI
+      { name: "Material UI", icon: MdDesignServices }, // Generic Icon
       { name: "Tailwind CSS", icon: SiTailwindcss },
+      { name: "NextJS", icon: SiNextdotjs },
+      { name: "Bootstrap", icon: SiBootstrap },
     ],
   },
   {
@@ -51,6 +58,7 @@ const skillCategories = [
       { name: "Kubernetes", icon: SiKubernetes },
       { name: "Git", icon: FaGitAlt },
       { name: "Postman", icon: SiPostman },
+      { name: "Nginx", icon: SiNginx },
     ],
   },
 ]

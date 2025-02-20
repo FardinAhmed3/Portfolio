@@ -21,7 +21,7 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-gray-800 dark:text-white">Your Name</h1>
+        <h1 className="text-2xl font-bold text-gray-800 dark:text-white">Fardin Ahmed</h1>
         <nav>
           <ul className="flex space-x-4">
             <li>
@@ -46,7 +46,7 @@ export default function Header() {
         </nav>
         <div className="flex space-x-4">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/FardinAhmed3"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"
@@ -54,7 +54,7 @@ export default function Header() {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/Fahmed7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"

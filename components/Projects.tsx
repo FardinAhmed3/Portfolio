@@ -2,21 +2,22 @@ import Image from "next/image"
 
 const projects = [
   {
-    title: "Project 1",
-    description: "A brief description of your first project.",
-    image: "/placeholder.svg",
-    link: "https://project1.com",
+    title: "Penfluence",
+    description: "Machine vision assisted tool to extract handwritten notes and convert into downloadable PDFs",
+    tech_stack:"NextJS, FastAPI, OpenAI, OpenCV, MySQL",
+    image: "/Penfluence.png",
+    link: "https://penfluence.vercel.app/",
   },
   {
-    title: "Project 2",
-    description: "A brief description of your second project.",
-    image: "/placeholder.svg",
+    title: "GoalWise",
+    description: "Full stack enterprise project developed using Django, React, MySQL",
+    image: "/GoalWise.png",
     link: "https://project2.com",
   },
   {
-    title: "Project 3",
-    description: "A brief description of your third project.",
-    image: "/placeholder.svg",
+    title: "Excilify",
+    description: "Data extraction and visualization tool built to streamline financial records at a project management office",
+    image: "/Excilify_simulation.jpg",
     link: "https://project3.com",
   },
 ]
@@ -35,13 +36,14 @@ export default function Projects() {
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
-                width={400}
+                width={500}
                 height={200}
-                className="w-full h-48 object-cover"
+                className="w-full h-50 object-cover"
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
+                <p className="text-gray-600 dark:text-gray-300 mb-4">Tech Stack: {project.tech_stack}</p>
                 <a
                   href={project.link}
                   target="_blank"
