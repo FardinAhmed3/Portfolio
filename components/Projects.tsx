@@ -2,11 +2,18 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "YapYap",
+    description: "A scalable real-time messaging platform",
+    tech_stack:"FastAPI, React, Docker, Socket.io, MySQL, MongoDB, RabbitMQ",
+    image: "/YapYap.png",
+    link: "https://yapyap.fardinahmed.com",
+  },
+  {
     title: "Penfluence",
     description: "Machine vision assisted tool to extract handwritten notes and convert into downloadable PDFs",
     tech_stack:"NextJS, FastAPI, OpenAI, OpenCV, MySQL",
     image: "/Penfluence.png",
-    link: "https://penfluence.vercel.app/",
+    link: "https://penfluence.vercel.app",
   },
   {
     title: "GoalWise",
@@ -22,6 +29,15 @@ const projects = [
     image: "/Excilify_simulation.jpg",
     link: "https://github.com/FardinAhmed3",
   },
+  {
+    title: "Promptopia",
+    description: "Blog Platform",
+    tech_stack:"NextJS, OAuth2.0, Vercel",
+    image: "/Promptopia.png",
+    link: "https://next.fardinahmed.com",
+  },
+
+
 ]
 
 export default function Projects() {
@@ -40,7 +56,7 @@ export default function Projects() {
                 alt={project.title}
                 width={500}
                 height={200}
-                className="w-full h-50 object-cover"
+                className="w-full h-[300px] object-cover"
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{project.title}</h3>
