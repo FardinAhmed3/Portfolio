@@ -17,10 +17,10 @@ const projects = [
   },
   {
     title: "GoalWise",
-    description: "Full stack enterprise project developed using Django, React, MySQL",
-    tech_stack:"React, Django, Axios, MySQL, Postman",
-    image: "/GoalWise.png",
-    link: "https://github.com/FardinAhmed3",
+    description: "Enterprise soccer CRM solution",
+    tech_stack:"NextJS, FastAPI, Supabase, PostgreSQL, OAuth2.0",
+    image: "/GoalWise2.png",
+    link: "https://goalwise.fardinahmed.com",
   },
   {
     title: "Excilify",
