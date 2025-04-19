@@ -56,7 +56,7 @@ export default function Projects() {
                 alt={project.title}
                 width={500}
                 height={200}
-                className="w-full h-[300px] object-cover"
+                className="w-full h-[300px] object-cover object-center mx-auto"
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">{project.title}</h3>
